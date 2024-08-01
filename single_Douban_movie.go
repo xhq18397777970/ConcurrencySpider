@@ -34,7 +34,7 @@ type movieData struct {
 	Quote    string
 }
 
-func Start() {
+func Start1() {
 	InitDB()
 	for i := 0; i <= 10; i++ {
 		fmt.Printf("正在爬取第%d页数据\n", i+1)
